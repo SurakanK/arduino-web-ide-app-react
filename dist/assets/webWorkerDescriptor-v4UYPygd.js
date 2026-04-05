@@ -1,0 +1,1 @@
+import{n as e}from"./chunk-BEqpzyXh.js";var t,n=e((()=>{t=class{constructor(e){this.esmModuleLocation=e.esmModuleLocation,this.esmModuleLocationBundler=e.esmModuleLocationBundler,this.label=e.label}}}));export{n,t};

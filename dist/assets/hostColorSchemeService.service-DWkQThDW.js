@@ -1,0 +1,1 @@
+import{n as e}from"./chunk-BEqpzyXh.js";import{BE as t,zE as n}from"./standaloneServices-B2u1mpXB.js";var r,i=e((()=>{t(),r=n(`preferencesService`)})),a,o=e((()=>{t(),a=n(`hostColorSchemeService`)}));export{i,o as n,r,a as t};
