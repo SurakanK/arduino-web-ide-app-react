@@ -1,6 +1,5 @@
 import type { EditorApp, TextContents } from 'monaco-languageclient/editorApp'
 
-import { Box } from '@chakra-ui/react'
 import { MonacoEditorReactComp } from '@typefox/monaco-editor-react'
 
 import {
@@ -36,7 +35,7 @@ function CodeEditor() {
   }
 
   return (
-    <Box width="100%" height="100vh">
+    <div className="w-full h-screen">
       <MonacoEditorReactComp
         style={{ width: '100%', height: '100%' }}
         editorAppConfig={editorAppConfig}
@@ -46,7 +45,7 @@ function CodeEditor() {
         onTextChanged={onTextChanged}
         onError={onError}
       />
-    </Box>
+    </div>
   )
 }
 
