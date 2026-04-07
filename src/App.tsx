@@ -1,6 +1,6 @@
 import './App.css'
 import { Box } from '@chakra-ui/react'
-import CodeEditor from './components/CodeEditor'
+import CodeEditor from './components/CodeEditor/index'
 
 function App() {
   return (
